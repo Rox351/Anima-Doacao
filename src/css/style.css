@@ -1,0 +1,53 @@
+body {
+    background-color: rgb(243, 208, 7) !important;
+    font-family: 'AbibasMedium';
+}
+
+form {
+    width: 560px;
+    margin: 100px auto;
+}
+
+img{
+    width: 350px;
+}
+
+.itens {
+    
+    list-style: none !important;
+    position: relative ;
+    left: auto;
+    float: left;
+    padding: 10px !important;
+    border: 1px solid #000;
+    border-radius: 15px;
+    margin: 0.5em !important;
+    transition: 1s all ;
+    font-weight: bold;
+    cursor: pointer;
+    
+    
+}
+
+.itens:hover{
+    
+    /* margin: 0.5em; */
+    background: #8f1d87 !important;
+    transform: scale(1.2) !important;
+    color: #f0f0f0;
+}
+
+.botao{
+    text-decoration: none ;
+    color: #f0f0f0;
+}
+
+h5 {
+    font-size: 4em;
+ text-decoration: none !important;
+}
+
+a {
+    color: #fff !important;
+    text-decoration: none !important;
+}

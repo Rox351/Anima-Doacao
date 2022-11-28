@@ -1,3 +1,8 @@
+@font-face {
+    font-family: 'icones';
+    src: url(../font/icones.ttf);
+}
+
 body {
     background-color: rgb(243, 208, 7) !important;
     font-family: 'AbibasMedium';
@@ -50,4 +55,69 @@ h5 {
 a {
     color: #fff !important;
     text-decoration: none !important;
+}
+
+@media only screen and (max-width: 916px) {
+    body {
+        background-color: rgb(243, 208, 7) !important;
+        font-family: 'AbibasMedium';
+    }
+    
+   
+    
+    form:nth-child(2){
+        width: 250px;
+    }
+
+  button{
+    width: 175px;
+    position: relative;
+    left: -20%!important;
+  }
+
+    img{
+        width: 300px;
+        margin: 0 0 -60px 0;
+    }
+    
+    .itens {
+        
+        list-style: none !important;
+        position: relative ;
+        left: auto;
+        float: left;
+        padding: 10px !important;
+        border: 1px solid #000;
+        border-radius: 15px;
+        margin: 0.5em !important;
+        transition: 1s all ;
+        font-weight: bold;
+        cursor: pointer;
+        
+        
+    }
+    
+    .itens:hover{
+        
+        /* margin: 0.5em; */
+        background: #8f1d87 !important;
+        transform: scale(1.2) !important;
+        color: #f0f0f0;
+    }
+    
+    .botao{
+        text-decoration: none ;
+        color: #f0f0f0;
+        
+    }
+    
+    h5 {
+        font-size: 4em;
+     text-decoration: none !important;
+    }
+    
+    a {
+        color: #fff !important;
+        text-decoration: none !important;
+    }
 }
